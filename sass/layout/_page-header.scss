@@ -75,6 +75,7 @@
     color: #fff;
     @include font(12px, 600, 16px);
     letter-spacing: 0.1em;
+    transition: var(--transition-dur-and-func);
 
     &:hover,
     &:focus {
@@ -91,6 +92,13 @@
     @include font(12px, 600, 16px);
     letter-spacing: 0.09em;
     text-transform: uppercase;
+    cursor: pointer;
+    transition: var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
   }
 }
 
