@@ -6,6 +6,12 @@
   z-index: 10;
 }
 
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 767px) {
   .menu {
     display: none;
@@ -31,7 +37,7 @@
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1280px) {
   .contact-phone-number {
     display: none;
   }
@@ -62,7 +68,7 @@
   }
 
   .menu__item:not(:last-child) {
-    margin-right: 24px;
+    margin-right: 23px;
   }
 
   .menu__link {
@@ -97,10 +103,4 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
-}
-
-.page-header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }

@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -76,58 +73,58 @@
     </header>
     <main>
       <!-- ===============================HERO=============================== -->
-  <section class="hero">
-    <!-- <div class="slider">
-      <div class="slides">
-        <div class="slide">
-          <img src="./images/hero-img-mobile.jpg" alt="Slide 1">
-        </div>
-        <div class="slide">
-          <img src="./images/Slider-img2-mobile.jpg" alt="Slide 2">
-        </div>
-        <div class="slide">
-          <img src="./images/Slider-img3-mobile.jpg" alt="Slide 3">
-        </div>
-      </div>
-       <div class="pagination"></div>
-      <button class="prev-button">Previous</button>
-      <button class="next-button">Next</button>
-    </div> -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="./images/hero-img-mobile.jpg" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="./images/Slider-img2-mobile.jpg" alt="" />       
-        </div>
-        <div class="swiper-slide">
-          <img src="./images/Slider-img3-mobile.jpg" alt="" /> 
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-        <div class="container hero-container">
+      <section class="hero">
+        <div class="hero-container">
           <div class="hero-left-side">
             <ul class="media-list hero-media-list list">
               <li class="media-list__item">
-                <a href="" class="media-link">Instagram</a>
+                <a href="" class="media-link link">Instagram</a>
               </li>
               <li class="media-list__item">
-                <a href="" class="media-link">Youtube</a>
+                <a href="" class="media-link link">Youtube</a>
               </li>
             </ul>
           </div>
+          <div class="bg-container">
+            <picture>
+              <source
+                srcset="./images/hero-img-desktop.jpg"
+                media="(min-width: 1280px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="./images/hero-img-tablet.jpg"
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <img src="./images/hero-img-tablet.jpg" alt="" />
+            </picture>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/hero-img-mobile.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/Slider-img2-mobile.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/Slider-img3-mobile.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
           <div class="hero-right-side">
-            <p class="subtitle subtitle_theme_dark section-description-theme-dark"  lang="en">A hair salon for men in Kyiv</p>
+            <p class="subtitle subtitle_theme_dark section-description-theme-dark" lang="en">
+              A hair salon for men in Kyiv
+            </p>
             <h1 class="main-title" lang="en">BarberShop</h1>
             <p class="section-description section-description-theme-dark hero-section-description">
               Ми эксперти в модних мужских стрижках. Працюємо скоро, обережно і зі смаком.
             </p>
           </div>
-          </div>
         </div>
-  </section>
+      </section>
       <!-- ===========================ABOUT============================ -->
       <!-- <section class="about section" id="about">
         <div class="container">
@@ -566,7 +563,7 @@
         </ul>
       </div>
     </footer> -->
-    
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/mobile-menu.js"></script>
